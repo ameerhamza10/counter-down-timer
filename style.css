@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.container{
+    background-image: linear-gradient(to right,yellow,green);
+    width: 100vw;
+    height: 100vh;
+    padding: 50px;
+
+}
+img{
+    width: 100px;
+    border-radius: 20px;
+    height: 80px;
+}
+.content{
+    position: absolute;
+    text-transform: capitalize;
+    top: 40%;
+    
+}
+.content p{
+    font-weight: 900;
+}
+.content h1{
+    font-size: 50px;
+}
+.content h1 span{
+    color: rgb(3, 89, 90);
+}
+
+button{
+    padding: 12px 25px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    text-transform: capitalize;
+    background-image: linear-gradient(to right,black,rgb(239, 17, 17));
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    transition: .5s;
+    font-weight: 900;
+}
+button:hover{
+    background-image: linear-gradient(to right,rgb(248, 8, 8),white);
+    color: black;
+
+}
+.launch-time{
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+.launch-time div p{
+    font-size: 20px;
+}
+.launch-time div span{
+    font-size: 10px;
+}
